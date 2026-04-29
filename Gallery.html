@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swivel Technology | Gallery </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <div class="container">
+            <nav>
+
+                <a href="index.html"><img src="images/logo.png" alt="Swivel Logo"></a>
+
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Company</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <div id="ball-container"></div>
+
+
+
+  
+
+
+
+    <section style="background:#F5E6D3">
+<!-- HERO -->
+<div class="page-hero">
+  <h1>Gallery</h1>
+  <div class="divider"></div>
+  <p>Our journey in technology, innovation &amp; achievements</p>
+</div>
+
+<!-- FILTER BUTTONS -->
+<div class="gallery-controls">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="tech">Technologies</button>
+  <button class="filter-btn" data-filter="achieve">Achievements</button>
+  <button class="filter-btn" data-filter="team">Team</button>
+  <button class="filter-btn" data-filter="event">Events</button>
+</div>
+
+<!-- MASONRY GALLERY -->
+<div class="gallery-masonry">
+
+  <div class="gallery-item tall" data-cat="tech"
+    data-emoji="🤖" data-title="AI Development Hub"
+    data-desc="Our state-of-the-art AI lab where engineers build intelligent systems powering Swivel's next-generation products.">
+    <div class="gallery-thumb h480" style="background:linear-gradient(135deg,#1a1714,#2e2520);">
+      <span class="thumb-icon">🤖</span>
+      <span class="thumb-label" style="color:#a0998e;">AI Lab</span>
+    </div>
+    <div class="gallery-badge">TECH</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>AI Development Hub</h4><p>Where intelligence is built</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="achieve"
+    data-emoji="🏆" data-title="Best IT Startup 2024"
+    data-desc="Swivel was awarded Best IT Startup of the Year 2024 by TechIndia Summit, recognising our rapid growth and innovation.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#3a2810,#6a4820);">
+      <span class="thumb-icon">🏆</span>
+    </div>
+    <div class="gallery-badge">AWARD</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>Best IT Startup 2024</h4><p>TechIndia Summit Award</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="tech"
+    data-emoji="🚁" data-title="Drone Innovation"
+    data-desc="Our manufacturing wing successfully deployed autonomous drone units for last-mile delivery across 12 pilot cities.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#0f1f2e,#1a3a52);">
+      <span class="thumb-icon">🚁</span>
+    </div>
+    <div class="gallery-badge">MFG</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>Drone Innovation</h4><p>Autonomous delivery fleet</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item wide" data-cat="achieve"
+    data-emoji="🎯" data-title="40,000 Shops Milestone"
+    data-desc="GrabBasket crossed the 40,000 onboarded shops milestone in just 18 months — a testament to our platform's reach.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#1a2a1a,#2a4a2a);">
+      <span class="thumb-icon">🎯</span>
+      <span class="thumb-label" style="color:#7a9a7a;">40,000 Shops Milestone</span>
+    </div>
+    <div class="gallery-badge">MILESTONE</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>40K Shops Onboarded</h4><p>GrabBasket E-Commerce Platform</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="event"
+    data-emoji="🎤" data-title="TechSummit 2024"
+    data-desc="Swivel's CTO delivered a keynote on AI-driven commerce at the South India TechSummit attended by 5,000+ delegates.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#2a1a3a,#4a2a6a);">
+      <span class="thumb-icon">🎤</span>
+    </div>
+    <div class="gallery-badge">EVENT</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>TechSummit Keynote</h4><p>South India Tech Conference 2024</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="team"
+    data-emoji="👥" data-title="Team Offsite 2024"
+    data-desc="Annual team retreat — 3,000+ Swivel team members across divisions came together for strategy, learning & celebration.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#2a1010,#4a2020);">
+      <span class="thumb-icon">👥</span>
+    </div>
+    <div class="gallery-badge">TEAM</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>Annual Team Offsite</h4><p>3,000+ members, one vision</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="tech"
+    data-emoji="🦾" data-title="Robotics Lab"
+    data-desc="Our robotics division is prototyping next-gen industrial robots for warehouse automation and precision manufacturing.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#1a2030,#2a3050);">
+      <span class="thumb-icon">🦾</span>
+    </div>
+    <div class="gallery-badge">MFG</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>Robotics Lab</h4><p>Industrial automation R&amp;D</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item tall" data-cat="achieve"
+    data-emoji="⭐" data-title="ISO 9001 Certified"
+    data-desc="Swivel achieved ISO 9001:2015 Quality Management certification, validating our commitment to world-class delivery standards.">
+    <div class="gallery-thumb h480" style="background:linear-gradient(135deg,#1f1a08,#3a3010);">
+      <span class="thumb-icon">⭐</span>
+      <span class="thumb-label" style="color:#a09060;">ISO 9001 Certified</span>
+    </div>
+    <div class="gallery-badge">CERT</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>ISO 9001:2015</h4><p>Quality Management Certified</p></div>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-cat="event"
+    data-emoji="🎓" data-title="Student Training Program"
+    data-desc="Swivel's internship & training program has produced 500+ industry-ready professionals with hands-on IT and E-commerce skills.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#0f2a1f,#1a4a35);">
+      <span class="thumb-icon">🎓</span>
+    </div>
+    <div class="gallery-badge">TRAINING</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>Student Training Program</h4><p>500+ industry-ready graduates</p></div>
+    </div>
+    
+  </div>
+  
+  
+
+  <div class="gallery-item wide" data-cat="tech"
+    data-emoji="🛒" data-title="GrabBasket Launch"
+    data-desc="The statewide launch of GrabBasket platform — powering 4M+ products across local shops with seamless digital commerce.">
+    <div class="gallery-thumb h240" style="background:linear-gradient(135deg,#1a1010,#3a1510);">
+      <span class="thumb-icon">🛒</span>
+      <span class="thumb-label" style="color:#c8692a;">GrabBasket — Statewide Launch</span>
+    </div>
+    <div class="gallery-badge">LAUNCH</div>
+    <div class="overlay">
+      <div class="overlay-text"><h4>GrabBasket Goes Statewide</h4><p>4M+ products, 40K+ shops</p></div>
+    </div>
+  </div>
+
+</div><!-- /gallery-masonry -->
+
+<!-- ACHIEVEMENTS -->
+<div class="achievements-section">
+  <h2 class="section-title">Achievements</h2>
+  <div class="divider"></div>
+  <p class="section-sub">Milestones that define our journey</p>
+  <div class="achievements-grid">
+    <div class="achievement-card">
+      <div class="ach-icon">🏆</div>
+      <div class="ach-number">5+</div>
+      <div class="ach-label">Industry Awards</div>
+      <div class="ach-desc">Best IT Startup, Innovation Excellence &amp; more from national tech forums.</div>
+    </div>
+    <div class="achievement-card">
+      <div class="ach-icon">🌐</div>
+      <div class="ach-number">18+</div>
+      <div class="ach-label">Major Projects</div>
+      <div class="ach-desc">Successfully delivered large-scale projects across e-commerce, AI, and manufacturing.</div>
+    </div>
+    <div class="achievement-card">
+      <div class="ach-icon">📦</div>
+      <div class="ach-number">4M+</div>
+      <div class="ach-label">Products Listed</div>
+      <div class="ach-desc">GrabBasket now hosts over 4 million SKUs across local and regional vendors.</div>
+    </div>
+    <div class="achievement-card">
+      <div class="ach-icon">🎓</div>
+      <div class="ach-number">500+</div>
+      <div class="ach-label">Students Trained</div>
+      <div class="ach-desc">Practical IT and E-commerce training aligned to industry standards.</div>
+    </div>
+  </div>
+</div>
+
+<!-- TECH STACK -->
+<div class="tech-stack-section">
+  <h2 class="section-title">Technologies We Use</h2>
+  <div class="divider"></div>
+  <p class="section-sub">The stack powering Swivel's digital ecosystem</p>
+  <div class="stack-grid">
+    <div class="stack-pill"><div class="s-icon">⚛️</div><div class="s-name">React</div><div class="s-cat">Frontend</div></div>
+    <div class="stack-pill"><div class="s-icon">🟢</div><div class="s-name">Node.js</div><div class="s-cat">Backend</div></div>
+    <div class="stack-pill"><div class="s-icon">🐍</div><div class="s-name">Python</div><div class="s-cat">AI / ML</div></div>
+    <div class="stack-pill"><div class="s-icon">☁️</div><div class="s-name">AWS</div><div class="s-cat">Cloud</div></div>
+    <div class="stack-pill"><div class="s-icon">🗄️</div><div class="s-name">MongoDB</div><div class="s-cat">Database</div></div>
+    <div class="stack-pill"><div class="s-icon">🐳</div><div class="s-name">Docker</div><div class="s-cat">DevOps</div></div>
+    <div class="stack-pill"><div class="s-icon">📱</div><div class="s-name">Flutter</div><div class="s-cat">Mobile</div></div>
+    <div class="stack-pill"><div class="s-icon">🔗</div><div class="s-name">GraphQL</div><div class="s-cat">API</div></div>
+    <div class="stack-pill"><div class="s-icon">🧠</div><div class="s-name">TensorFlow</div><div class="s-cat">AI / ML</div></div>
+    <div class="stack-pill"><div class="s-icon">🔴</div><div class="s-name">Redis</div><div class="s-cat">Cache</div></div>
+  </div>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lb-close">✕</button>
+    <span class="lightbox-emoji" id="lb-emoji"></span>
+    <h3 id="lb-title"></h3>
+    <p  id="lb-desc"></p>
+  </div>
+</div>
+
+<script>
+  /* ── Filter ───────────────────────────────────────────────── */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const items      = document.querySelectorAll('.gallery-item');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+      items.forEach(item => {
+        const match = filter === 'all' || item.dataset.cat === filter;
+        item.classList.toggle('hidden', !match);
+      });
+    });
+  });
+
+  /* ── Lightbox ─────────────────────────────────────────────── */
+  const lightbox = document.getElementById('lightbox');
+
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      document.getElementById('lb-emoji').textContent = item.dataset.emoji;
+      document.getElementById('lb-title').textContent = item.dataset.title;
+      document.getElementById('lb-desc').textContent  = item.dataset.desc;
+      lightbox.classList.add('open');
+    });
+  });
+
+  document.getElementById('lb-close').addEventListener('click', () => {
+    lightbox.classList.remove('open');
+  });
+
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) lightbox.classList.remove('open');
+  });
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') lightbox.classList.remove('open');
+  });
+</script>
+
+    </section>
+
+
+
+
+    <footer class="footer-section pt-5 pb-4">
+
+        <div class="container">
+
+            <div class="row justify-content-between">
+
+                <div class="col-lg-4 col-md-6 mb-4">
+
+                    <h5>Technology</h5>
+
+                    <p style="color:white;">
+                        We build innovative digital solutions for entrepreneurs,
+                        startups and small businesses.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <h5>Contact Info</h5>
+
+                    <ul class="list-unstyled">
+
+                        <li>Porur , Chennai, Tamil Nadu 600116</li>
+
+                        <li><a href="mailto:jeygroups@gmail.com">jeygroups@gmail.com</a></li>
+
+                        <li><a href="tel:+918438074230">+91 84380 74230</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <h5>Follow Us</h5>
+
+                    <div class="d-flex gap-3">
+
+                        <a target="_blank"
+                            href="https://www.instagram.com/swivel.technologies?igsh=MTU3bWl4bm81NjI4Ng%3D%3D"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+                        <a target="_blank" href="https://www.linkedin.com/in/jey-groups-32358a3b1/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+
+                        <a target="_blank" href="https://swivtrek.in/"><i class="fa-solid fa-globe"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4 pt-3 border-top">
+
+                <p style="color:white;">
+                    © 2026 Swivel Technology | All Rights Reserved
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+    <script>
+
+        AOS.init({
+            duration: 1200,
+            once: true
+        })
+
+
+        window.addEventListener("scroll", function () {
+
+            document.querySelector("header")
+                .classList.toggle("scrolled", window.scrollY > 50)
+
+        })
+
+    </script>
+
+
+
+    <script>
+
+            (function () {
+                emailjs.init("-7wkbGnC_50wjRavn");
+            })();
+
+        const SERVICE_ID = "service_8unkljg";
+        const TEMPLATE_ID = "template_7bvvb7l";
+
+        document.getElementById("contact-form").addEventListener("submit", function (e) {
+
+            e.preventDefault();
+
+            emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this)
+                .then(function () {
+
+                    alert("Message sent successfully!");
+
+                    document.getElementById("contact-form").reset();
+
+                }, function (error) {
+
+                    alert("Failed to send message. Please try again.");
+
+                });
+
+        });
+
+    </script>
+
+
+
+    <script>
+
+        const container = document.getElementById("ball-container")
+
+        function createBall() {
+
+            const ball = document.createElement("div")
+
+            ball.classList.add("ball")
+
+            const size = Math.random() * 80 + 20
+
+            ball.style.width = size + "px"
+            ball.style.height = size + "px"
+
+            ball.style.left = Math.random() * window.innerWidth + "px"
+
+            const colors = ["#38bdf8", "#f472b6", "#34d399", "#facc15", "#a78bfa"]
+
+            ball.style.background = colors[Math.floor(Math.random() * colors.length)]
+
+            ball.style.animationDuration = (Math.random() * 15 + 10) + "s"
+
+            container.appendChild(ball)
+
+            setTimeout(() => {
+
+                ball.remove()
+
+            }, 20000)
+
+        }
+
+        setInterval(createBall, 800)
+
+    </script>
+
+    <script>
+
+        const currentPage = location.pathname.split("/").pop();
+
+        const menuLinks = document.querySelectorAll("nav ul li a");
+
+        menuLinks.forEach(link => {
+
+            const linkPage = link.getAttribute("href");
+
+            if (linkPage === currentPage) {
+                link.classList.add("active");
+            }
+
+        });
+
+    </script>
+
+    <script>
+
+        const toggle = document.querySelector(".menu-toggle");
+        const menu = document.querySelector("nav ul");
+
+        toggle.addEventListener("click", () => {
+            menu.classList.toggle("show");
+        });
+
+    </script>
+
+
+</body>
+
+</html>
